@@ -6,13 +6,13 @@ extern GLRE::App* GLRE::CreateApp();
 
 int main(int argc, char** argv)
 {
-	printf("\u001b[42;1mGLRendering Engine");
+	GLRE::Log::Init();
+	GLRE_CORE_WARN("Initialized Log!");
+	GLRE_INFO("Initialized Log!");
 	auto app = GLRE::CreateApp();
 	app->Run();
 	delete app;
 }
-
-
 
 
 #else
