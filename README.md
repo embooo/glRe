@@ -1,3 +1,3 @@
 # glRe
 
-OpenGL Rendering Engine
+OpenGL Rendering Engine.
